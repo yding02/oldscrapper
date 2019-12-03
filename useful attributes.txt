@@ -1,0 +1,21 @@
+ItemSearchResponse.Items.Request.IsValid == True
+ItemSearchResponse.Items.Request.ItemSearchRequest.ItemPage == 1
+ItemSearchResponse.Items.TotalResults
+ItemSearchResponse.Items.Item.ASIN
+ItemSearchResponse.Items.Item.SalesRank
+
+ItemSearchResponse.Items.Item.ItemAttributes.Department
+ItemSearchResponse.Items.Item.ItemAttributes.EAN
+ItemSearchResponse.Items.Item.ItemAttributes.PackageDimensions.Weight
+ItemSearchResponse.Items.Item.ItemAttributes.ListPrice.Amount
+ItemSearchResponse.Items.Item.ItemAttributes.Manufacturer
+ItemSearchResponse.Items.Item.ItemAttributes.Title
+ItemSearchResponse.Items.Item.ItemAttributes.UPC
+
+ItemSearchResponse.Items.Item.OfferSummary.LowestNewPrice.Amount
+ItemSearchResponse.Items.Item.OfferSummary.TotalNew
+
+ItemSearchResponse.Items.Item.Offers.TotalOffers >= 1
+ItemSearchResponse.Items.Item.Offers.Offer.Merchant.Name != Amazon.com
+ItemSearchResponse.Items.Item.Offers.Offer.OfferListing.Price.Amount
+ItemSearchResponse.Items.Item.Offers.Offer.OfferListing.IsEligibleForPrime
